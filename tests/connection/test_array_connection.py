@@ -111,7 +111,7 @@ def describe_connection_from_array():
                 pageInfo=PageInfo(
                     startCursor=cursor_c,
                     endCursor=cursor_d,
-                    hasPreviousPage=False,
+                    hasPreviousPage=True,
                     hasNextPage=True,
                 ),
             )
@@ -123,7 +123,7 @@ def describe_connection_from_array():
                 pageInfo=PageInfo(
                     startCursor=cursor_c,
                     endCursor=cursor_e,
-                    hasPreviousPage=False,
+                    hasPreviousPage=True,
                     hasNextPage=False,
                 ),
             )
@@ -136,7 +136,7 @@ def describe_connection_from_array():
                     startCursor=cursor_b,
                     endCursor=cursor_c,
                     hasPreviousPage=True,
-                    hasNextPage=False,
+                    hasNextPage=True,
                 ),
             )
 
@@ -148,7 +148,7 @@ def describe_connection_from_array():
                     startCursor=cursor_a,
                     endCursor=cursor_c,
                     hasPreviousPage=False,
-                    hasNextPage=False,
+                    hasNextPage=True,
                 ),
             )
 
@@ -162,7 +162,7 @@ def describe_connection_from_array():
                 pageInfo=PageInfo(
                     startCursor=cursor_b,
                     endCursor=cursor_c,
-                    hasPreviousPage=False,
+                    hasPreviousPage=True,
                     hasNextPage=True,
                 ),
             )
@@ -177,8 +177,8 @@ def describe_connection_from_array():
                 pageInfo=PageInfo(
                     startCursor=cursor_b,
                     endCursor=cursor_d,
-                    hasPreviousPage=False,
-                    hasNextPage=False,
+                    hasPreviousPage=True,
+                    hasNextPage=True,
                 ),
             )
 
@@ -192,8 +192,8 @@ def describe_connection_from_array():
                 pageInfo=PageInfo(
                     startCursor=cursor_b,
                     endCursor=cursor_d,
-                    hasPreviousPage=False,
-                    hasNextPage=False,
+                    hasPreviousPage=True,
+                    hasNextPage=True,
                 ),
             )
 
@@ -208,7 +208,7 @@ def describe_connection_from_array():
                     startCursor=cursor_c,
                     endCursor=cursor_d,
                     hasPreviousPage=True,
-                    hasNextPage=False,
+                    hasNextPage=True,
                 ),
             )
 
@@ -222,8 +222,8 @@ def describe_connection_from_array():
                 pageInfo=PageInfo(
                     startCursor=cursor_b,
                     endCursor=cursor_d,
-                    hasPreviousPage=False,
-                    hasNextPage=False,
+                    hasPreviousPage=True,
+                    hasNextPage=True,
                 ),
             )
 
@@ -237,8 +237,8 @@ def describe_connection_from_array():
                 pageInfo=PageInfo(
                     startCursor=cursor_b,
                     endCursor=cursor_d,
-                    hasPreviousPage=False,
-                    hasNextPage=False,
+                    hasPreviousPage=True,
+                    hasNextPage=True,
                 ),
             )
 
@@ -317,8 +317,8 @@ def describe_connection_from_array():
                 pageInfo=PageInfo(
                     startCursor=None,
                     endCursor=None,
-                    hasPreviousPage=False,
-                    hasNextPage=False,
+                    hasPreviousPage=True,
+                    hasNextPage=True,
                 ),
             )
 
@@ -483,7 +483,7 @@ def describe_connection_from_array_slice():
             pageInfo=PageInfo(
                 startCursor=cursor_b,
                 endCursor=cursor_c,
-                hasPreviousPage=False,
+                hasPreviousPage=True,
                 hasNextPage=True,
             ),
         )
@@ -500,7 +500,7 @@ def describe_connection_from_array_slice():
             pageInfo=PageInfo(
                 startCursor=cursor_b,
                 endCursor=cursor_c,
-                hasPreviousPage=False,
+                hasPreviousPage=True,
                 hasNextPage=True,
             ),
         )
@@ -517,7 +517,7 @@ def describe_connection_from_array_slice():
             pageInfo=PageInfo(
                 startCursor=cursor_c,
                 endCursor=cursor_c,
-                hasPreviousPage=False,
+                hasPreviousPage=True,
                 hasNextPage=True,
             ),
         )
@@ -534,7 +534,7 @@ def describe_connection_from_array_slice():
             pageInfo=PageInfo(
                 startCursor=cursor_c,
                 endCursor=cursor_c,
-                hasPreviousPage=False,
+                hasPreviousPage=True,
                 hasNextPage=True,
             ),
         )
@@ -551,7 +551,7 @@ def describe_connection_from_array_slice():
             pageInfo=PageInfo(
                 startCursor=cursor_d,
                 endCursor=cursor_e,
-                hasPreviousPage=False,
+                hasPreviousPage=True,
                 hasNextPage=False,
             ),
         )
@@ -568,7 +568,7 @@ def describe_connection_from_array_slice():
             pageInfo=PageInfo(
                 startCursor=cursor_c,
                 endCursor=cursor_d,
-                hasPreviousPage=False,
+                hasPreviousPage=True,
                 hasNextPage=True,
             ),
         )
@@ -585,7 +585,7 @@ def describe_connection_from_array_slice():
             pageInfo=PageInfo(
                 startCursor=cursor_d,
                 endCursor=cursor_d,
-                hasPreviousPage=False,
+                hasPreviousPage=True,
                 hasNextPage=True,
             ),
         )
